@@ -32,7 +32,7 @@
 
 //
 //  ImageViewerController.swift
-// SampleFeeds
+// Jet2TravelTask
 //
 //  Created by Piyush on 28/06/20.
 //  Copyright © 2020 Piyush. All rights reserved.
