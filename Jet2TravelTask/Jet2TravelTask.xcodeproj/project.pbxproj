@@ -15,6 +15,17 @@
 		4B47F12924A8D93100DE1A75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B47F12824A8D93100DE1A75 /* Assets.xcassets */; };
 		4B47F12C24A8D93100DE1A75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B47F12A24A8D93100DE1A75 /* LaunchScreen.storyboard */; };
 		4B47F13724A8D93100DE1A75 /* Jet2TravelTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B47F13624A8D93100DE1A75 /* Jet2TravelTaskTests.swift */; };
+		4B47F15124A8DA5C00DE1A75 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B47F14324A8DA5C00DE1A75 /* ParameterEncoding.swift */; };
+		4B47F15224A8DA5C00DE1A75 /* URLParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B47F14424A8DA5C00DE1A75 /* URLParameterEncoding.swift */; };
+		4B47F15324A8DA5C00DE1A75 /* JSONParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B47F14524A8DA5C00DE1A75 /* JSONParameterEncoder.swift */; };
+		4B47F15424A8DA5C00DE1A75 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B47F14724A8DA5C00DE1A75 /* NetworkManager.swift */; };
+		4B47F15524A8DA5C00DE1A75 /* ServiceEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B47F14924A8DA5C00DE1A75 /* ServiceEndPoint.swift */; };
+		4B47F15624A8DA5C00DE1A75 /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B47F14B24A8DA5C00DE1A75 /* HTTPTask.swift */; };
+		4B47F15724A8DA5C00DE1A75 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B47F14C24A8DA5C00DE1A75 /* Reachability.swift */; };
+		4B47F15824A8DA5C00DE1A75 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B47F14D24A8DA5C00DE1A75 /* HTTPMethod.swift */; };
+		4B47F15924A8DA5C00DE1A75 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B47F14E24A8DA5C00DE1A75 /* Router.swift */; };
+		4B47F15A24A8DA5C00DE1A75 /* NetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B47F14F24A8DA5C00DE1A75 /* NetworkLogger.swift */; };
+		4B47F15B24A8DA5C00DE1A75 /* EndPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B47F15024A8DA5C00DE1A75 /* EndPointType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +51,17 @@
 		4B47F13224A8D93100DE1A75 /* Jet2TravelTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Jet2TravelTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B47F13624A8D93100DE1A75 /* Jet2TravelTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jet2TravelTaskTests.swift; sourceTree = "<group>"; };
 		4B47F13824A8D93100DE1A75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B47F14324A8DA5C00DE1A75 /* ParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		4B47F14424A8DA5C00DE1A75 /* URLParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLParameterEncoding.swift; sourceTree = "<group>"; };
+		4B47F14524A8DA5C00DE1A75 /* JSONParameterEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONParameterEncoder.swift; sourceTree = "<group>"; };
+		4B47F14724A8DA5C00DE1A75 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		4B47F14924A8DA5C00DE1A75 /* ServiceEndPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceEndPoint.swift; sourceTree = "<group>"; };
+		4B47F14B24A8DA5C00DE1A75 /* HTTPTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPTask.swift; sourceTree = "<group>"; };
+		4B47F14C24A8DA5C00DE1A75 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		4B47F14D24A8DA5C00DE1A75 /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		4B47F14E24A8DA5C00DE1A75 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		4B47F14F24A8DA5C00DE1A75 /* NetworkLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkLogger.swift; sourceTree = "<group>"; };
+		4B47F15024A8DA5C00DE1A75 /* EndPointType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndPointType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +103,7 @@
 		4B47F11B24A8D92E00DE1A75 /* Jet2TravelTask */ = {
 			isa = PBXGroup;
 			children = (
+				4B47F14124A8DA5C00DE1A75 /* Networks */,
 				4B47F11C24A8D92E00DE1A75 /* AppDelegate.swift */,
 				4B47F11E24A8D92E00DE1A75 /* SceneDelegate.swift */,
 				4B47F12024A8D92E00DE1A75 /* ViewController.swift */,
@@ -100,6 +123,56 @@
 				4B47F13824A8D93100DE1A75 /* Info.plist */,
 			);
 			path = Jet2TravelTaskTests;
+			sourceTree = "<group>";
+		};
+		4B47F14124A8DA5C00DE1A75 /* Networks */ = {
+			isa = PBXGroup;
+			children = (
+				4B47F14224A8DA5C00DE1A75 /* Encoding */,
+				4B47F14624A8DA5C00DE1A75 /* Manager */,
+				4B47F14824A8DA5C00DE1A75 /* EndPoint */,
+				4B47F14A24A8DA5C00DE1A75 /* Service */,
+			);
+			path = Networks;
+			sourceTree = "<group>";
+		};
+		4B47F14224A8DA5C00DE1A75 /* Encoding */ = {
+			isa = PBXGroup;
+			children = (
+				4B47F14324A8DA5C00DE1A75 /* ParameterEncoding.swift */,
+				4B47F14424A8DA5C00DE1A75 /* URLParameterEncoding.swift */,
+				4B47F14524A8DA5C00DE1A75 /* JSONParameterEncoder.swift */,
+			);
+			path = Encoding;
+			sourceTree = "<group>";
+		};
+		4B47F14624A8DA5C00DE1A75 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				4B47F14724A8DA5C00DE1A75 /* NetworkManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		4B47F14824A8DA5C00DE1A75 /* EndPoint */ = {
+			isa = PBXGroup;
+			children = (
+				4B47F14924A8DA5C00DE1A75 /* ServiceEndPoint.swift */,
+			);
+			path = EndPoint;
+			sourceTree = "<group>";
+		};
+		4B47F14A24A8DA5C00DE1A75 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				4B47F14B24A8DA5C00DE1A75 /* HTTPTask.swift */,
+				4B47F14C24A8DA5C00DE1A75 /* Reachability.swift */,
+				4B47F14D24A8DA5C00DE1A75 /* HTTPMethod.swift */,
+				4B47F14E24A8DA5C00DE1A75 /* Router.swift */,
+				4B47F14F24A8DA5C00DE1A75 /* NetworkLogger.swift */,
+				4B47F15024A8DA5C00DE1A75 /* EndPointType.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,10 +276,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B47F15A24A8DA5C00DE1A75 /* NetworkLogger.swift in Sources */,
 				4B47F12124A8D92E00DE1A75 /* ViewController.swift in Sources */,
+				4B47F15524A8DA5C00DE1A75 /* ServiceEndPoint.swift in Sources */,
 				4B47F12724A8D92E00DE1A75 /* Jet2TravelTask.xcdatamodeld in Sources */,
+				4B47F15124A8DA5C00DE1A75 /* ParameterEncoding.swift in Sources */,
 				4B47F11D24A8D92E00DE1A75 /* AppDelegate.swift in Sources */,
+				4B47F15424A8DA5C00DE1A75 /* NetworkManager.swift in Sources */,
+				4B47F15624A8DA5C00DE1A75 /* HTTPTask.swift in Sources */,
+				4B47F15B24A8DA5C00DE1A75 /* EndPointType.swift in Sources */,
+				4B47F15724A8DA5C00DE1A75 /* Reachability.swift in Sources */,
+				4B47F15824A8DA5C00DE1A75 /* HTTPMethod.swift in Sources */,
+				4B47F15224A8DA5C00DE1A75 /* URLParameterEncoding.swift in Sources */,
+				4B47F15324A8DA5C00DE1A75 /* JSONParameterEncoder.swift in Sources */,
 				4B47F11F24A8D92E00DE1A75 /* SceneDelegate.swift in Sources */,
+				4B47F15924A8DA5C00DE1A75 /* Router.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
