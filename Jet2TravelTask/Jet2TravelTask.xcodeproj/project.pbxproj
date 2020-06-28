@@ -26,6 +26,16 @@
 		4B47F15924A8DA5C00DE1A75 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B47F14E24A8DA5C00DE1A75 /* Router.swift */; };
 		4B47F15A24A8DA5C00DE1A75 /* NetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B47F14F24A8DA5C00DE1A75 /* NetworkLogger.swift */; };
 		4B47F15B24A8DA5C00DE1A75 /* EndPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B47F15024A8DA5C00DE1A75 /* EndPointType.swift */; };
+		4B47F16A24A8DAD600DE1A75 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B47F15E24A8DAD600DE1A75 /* ImageLoader.swift */; };
+		4B47F16B24A8DAD600DE1A75 /* ImageViewerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B47F15F24A8DAD600DE1A75 /* ImageViewerExtension.swift */; };
+		4B47F16C24A8DAD600DE1A75 /* SpinnerLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B47F16024A8DAD600DE1A75 /* SpinnerLayer.swift */; };
+		4B47F16D24A8DAD600DE1A75 /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B47F16124A8DAD600DE1A75 /* Animator.swift */; };
+		4B47F16E24A8DAD600DE1A75 /* SpinnerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B47F16224A8DAD600DE1A75 /* SpinnerButton.swift */; };
+		4B47F16F24A8DAD600DE1A75 /* ImageViewerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B47F16324A8DAD600DE1A75 /* ImageViewerController.swift */; };
+		4B47F17024A8DAD600DE1A75 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B47F16524A8DAD600DE1A75 /* Global.swift */; };
+		4B47F17124A8DAD600DE1A75 /* ApplicationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B47F16624A8DAD600DE1A75 /* ApplicationExtension.swift */; };
+		4B47F17224A8DAD600DE1A75 /* sample.json in Resources */ = {isa = PBXBuildFile; fileRef = 4B47F16824A8DAD600DE1A75 /* sample.json */; };
+		4B47F17324A8DAD600DE1A75 /* ApplicationConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B47F16924A8DAD600DE1A75 /* ApplicationConstant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +72,16 @@
 		4B47F14E24A8DA5C00DE1A75 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		4B47F14F24A8DA5C00DE1A75 /* NetworkLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkLogger.swift; sourceTree = "<group>"; };
 		4B47F15024A8DA5C00DE1A75 /* EndPointType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndPointType.swift; sourceTree = "<group>"; };
+		4B47F15E24A8DAD600DE1A75 /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		4B47F15F24A8DAD600DE1A75 /* ImageViewerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewerExtension.swift; sourceTree = "<group>"; };
+		4B47F16024A8DAD600DE1A75 /* SpinnerLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinnerLayer.swift; sourceTree = "<group>"; };
+		4B47F16124A8DAD600DE1A75 /* Animator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animator.swift; sourceTree = "<group>"; };
+		4B47F16224A8DAD600DE1A75 /* SpinnerButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinnerButton.swift; sourceTree = "<group>"; };
+		4B47F16324A8DAD600DE1A75 /* ImageViewerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewerController.swift; sourceTree = "<group>"; };
+		4B47F16524A8DAD600DE1A75 /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		4B47F16624A8DAD600DE1A75 /* ApplicationExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationExtension.swift; sourceTree = "<group>"; };
+		4B47F16824A8DAD600DE1A75 /* sample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample.json; sourceTree = "<group>"; };
+		4B47F16924A8DAD600DE1A75 /* ApplicationConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationConstant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +125,8 @@
 			children = (
 				4B47F14124A8DA5C00DE1A75 /* Networks */,
 				4B47F11C24A8D92E00DE1A75 /* AppDelegate.swift */,
+				4B47F15C24A8DAD600DE1A75 /* Customs */,
+				4B47F16424A8DAD600DE1A75 /* Utility */,
 				4B47F11E24A8D92E00DE1A75 /* SceneDelegate.swift */,
 				4B47F12024A8D92E00DE1A75 /* ViewController.swift */,
 				4B47F12224A8D92E00DE1A75 /* Main.storyboard */,
@@ -173,6 +195,46 @@
 				4B47F15024A8DA5C00DE1A75 /* EndPointType.swift */,
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		4B47F15C24A8DAD600DE1A75 /* Customs */ = {
+			isa = PBXGroup;
+			children = (
+				4B47F15D24A8DAD600DE1A75 /* Source */,
+			);
+			path = Customs;
+			sourceTree = "<group>";
+		};
+		4B47F15D24A8DAD600DE1A75 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				4B47F15E24A8DAD600DE1A75 /* ImageLoader.swift */,
+				4B47F15F24A8DAD600DE1A75 /* ImageViewerExtension.swift */,
+				4B47F16024A8DAD600DE1A75 /* SpinnerLayer.swift */,
+				4B47F16124A8DAD600DE1A75 /* Animator.swift */,
+				4B47F16224A8DAD600DE1A75 /* SpinnerButton.swift */,
+				4B47F16324A8DAD600DE1A75 /* ImageViewerController.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		4B47F16424A8DAD600DE1A75 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				4B47F16524A8DAD600DE1A75 /* Global.swift */,
+				4B47F16624A8DAD600DE1A75 /* ApplicationExtension.swift */,
+				4B47F16724A8DAD600DE1A75 /* Resources */,
+				4B47F16924A8DAD600DE1A75 /* ApplicationConstant.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		4B47F16724A8DAD600DE1A75 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4B47F16824A8DAD600DE1A75 /* sample.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +319,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B47F12C24A8D93100DE1A75 /* LaunchScreen.storyboard in Resources */,
+				4B47F17224A8DAD600DE1A75 /* sample.json in Resources */,
 				4B47F12924A8D93100DE1A75 /* Assets.xcassets in Resources */,
 				4B47F12424A8D92E00DE1A75 /* Main.storyboard in Resources */,
 			);
@@ -276,14 +339,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B47F16B24A8DAD600DE1A75 /* ImageViewerExtension.swift in Sources */,
 				4B47F15A24A8DA5C00DE1A75 /* NetworkLogger.swift in Sources */,
+				4B47F16F24A8DAD600DE1A75 /* ImageViewerController.swift in Sources */,
 				4B47F12124A8D92E00DE1A75 /* ViewController.swift in Sources */,
+				4B47F16D24A8DAD600DE1A75 /* Animator.swift in Sources */,
 				4B47F15524A8DA5C00DE1A75 /* ServiceEndPoint.swift in Sources */,
+				4B47F17024A8DAD600DE1A75 /* Global.swift in Sources */,
+				4B47F16E24A8DAD600DE1A75 /* SpinnerButton.swift in Sources */,
 				4B47F12724A8D92E00DE1A75 /* Jet2TravelTask.xcdatamodeld in Sources */,
 				4B47F15124A8DA5C00DE1A75 /* ParameterEncoding.swift in Sources */,
+				4B47F17324A8DAD600DE1A75 /* ApplicationConstant.swift in Sources */,
 				4B47F11D24A8D92E00DE1A75 /* AppDelegate.swift in Sources */,
+				4B47F16C24A8DAD600DE1A75 /* SpinnerLayer.swift in Sources */,
+				4B47F16A24A8DAD600DE1A75 /* ImageLoader.swift in Sources */,
 				4B47F15424A8DA5C00DE1A75 /* NetworkManager.swift in Sources */,
 				4B47F15624A8DA5C00DE1A75 /* HTTPTask.swift in Sources */,
+				4B47F17124A8DAD600DE1A75 /* ApplicationExtension.swift in Sources */,
 				4B47F15B24A8DA5C00DE1A75 /* EndPointType.swift in Sources */,
 				4B47F15724A8DA5C00DE1A75 /* Reachability.swift in Sources */,
 				4B47F15824A8DA5C00DE1A75 /* HTTPMethod.swift in Sources */,
